@@ -19,11 +19,6 @@ app.post("/book", async (req,res) =>{
     res.send({ data:books })
 });
 
- 
-app.delete('/moni', (req, res) => {
-  res.send("DELETE Request Called")
-})
-
 app.listen(5000,()=>{
     console.log("sever is slow")
 
